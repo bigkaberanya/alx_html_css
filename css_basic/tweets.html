@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8">
-    <title>My Basic Page</title>
+    <title>My Tweets Page</title>
     <link href="base.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="tweets.html">Tweets</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </nav>
     </header>
-
 
     <main>
         <article>
-    <h1>My Tweets Page</h1>
+            <h1>My Tweets Page</h1>
 
+            <!-- Embedded Tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="tl" dir="ltr">Uwo Cyahiriye Agira Ngo Yakuniye Kuri Alitari</p>
+                &mdash; Riderman (@RidermanRiderzo) 
+                <a href="https://twitter.com/RidermanRiderzo/status/1928012615759888870?ref_src=twsrc%5Etfw">
+                    May 29, 2025
+                </a>
+            </blockquote> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-    <!-- Embedded Tweet-->
-    <blockquote class="twitter-tweet"><p lang="tl" dir="ltr">Uwo Cyahiriye Agira Ngo Yakuniye Kuri Alitari</p>&mdash; Riderman (@RidermanRiderzo) 
-        <a href="https://twitter.com/RidermanRiderzo/status/1928012615759888870?ref_src=twsrc%5Etfw">May 29, 2025</a>
-    </blockquote> 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <!-- Link Back to homepage-->
-    <p><a href="index.html">Back to Homepage</a></p>
+            <!-- Link Back to homepage -->
+            <p><a href="index.html">Back to Homepage</a></p>
         </article>
-    <aside>
-        <p>placeholder to add comment thread later</p>
-    </aside>
+
+        <aside>
+            <h3>Comments</h3>
+            <p>Placeholder to add comment thread later</p>
+        </aside>
     </main>
 
     <footer>
-        <p>Made by Kaberanya -<a href="https://github.com/bigkaberanya" target="_blank">GitHub</a></p>
-    </footer> 
-</body> 
-</html>   
+        <p>Made by Kaberanya - 
+            <a href="https://github.com/bigkaberanya" target="_blank">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>

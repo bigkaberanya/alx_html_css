@@ -34,3 +34,64 @@ header, footer {
     padding: 1rem;
     background-color: #f1f1f1;
 }
+
+/* Add background and text colors */
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style article content */
+article {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Style aside */
+aside {
+    padding: 20px;
+    background-color: #eef;
+    border-left: 3px solid #88a;
+    border-radius: 10px;
+}
+
+/* Style footer */
+footer {
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+/* Logo styling already exists in base.css but you can extend it */
+.logo {
+    font-size: 28px;
+    padding-right: 10px;
+    color: #0a84ff;
+}
+
+/* Style links */
+a {
+    color: #0a84ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}

@@ -1,0 +1,8 @@
+.service, .stat {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.service:hover, .stat:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}

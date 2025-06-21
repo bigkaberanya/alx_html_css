@@ -1,0 +1,23 @@
+.menu-icon {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}

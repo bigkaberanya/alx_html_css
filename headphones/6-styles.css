@@ -1,0 +1,35 @@
+.pentagon {
+  width: 0;
+  border-style: solid;
+  border-width: 0 50px 86.6px 50px;
+  border-color: transparent transparent #FF6565 transparent;
+  position: relative;
+  margin: 50px auto;
+}
+
+.pentagon::after {
+  content: "";
+  position: absolute;
+  top: -57.74px;
+  left: -50px;
+  width: 0;
+  border-style: solid;
+  border-width: 0 50px 57.74px 50px;
+  border-color: transparent transparent #FF6565 transparent;
+}
+footer {
+  background-color: #000;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.socials a {
+  color: #FF6565;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  opacity: 0.9;
+}
